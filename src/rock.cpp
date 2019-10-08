@@ -1,7 +1,12 @@
 #include "rock.h"
 //------------------bof ns time--------------------------------
-long rock::time::CurTimeMs() {
-	return 0;
+_uint64 rock::time::CurTimeMs() {
+	auto now = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::system_clock::now().time_since_epoch());
+	return now.count();
+}
+_uint32 rock::time::CurTime() {
+	time_t now = std::time(NULL);
+	return now;
 }
 //------------------eof ns time--------------------------------
 

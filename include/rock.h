@@ -7,11 +7,19 @@
 #include <algorithm>
 #include <cstdio>
 #include <iostream>
+#include <chrono>
+
+#include <time.h>
+
+typedef unsigned long long _uint64;
+typedef long long _int64;
+typedef unsigned int _uint32;
 
 namespace rock{//BO_NS_ROCK
 
 namespace time{//BO_NS_TIME
-long CurTimeMs();
+_uint64 CurTimeMs();
+_uint32 CurTime();
 };//EO_NS_TIME
 
 namespace string{//BO_NS_STRING
