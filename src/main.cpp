@@ -1,17 +1,8 @@
-#include <string>
-#include <vector>
-#include <map>
-#include <algorithm>
-#include <cstdio>
-#include <iostream>
-using namespace std;
-
-#define ROCK_NS rock
+#include "pch.h"
+#include "cmdline.h"
 #include "rock.h"
 
-#include "cmdline.h"
-
-//#define CATCH_CONFIG_MAIN
+#define CATCH_CONFIG_MAIN
 #include "catch.hpp"
 
 #ifndef CATCH_CONFIG_MAIN
