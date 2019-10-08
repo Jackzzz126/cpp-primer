@@ -1,11 +1,14 @@
-#include <cstdio>
-#include <iostream>
+#include <string>
 #include <vector>
 #include <map>
 #include <algorithm>
+#include <cstdio>
+#include <iostream>
 using namespace std;
 
-#include "util.h"
+#define ROCK_NS rock
+#include "rock.h"
+
 #include "cmdline.h"
 
 //#define CATCH_CONFIG_MAIN
@@ -18,3 +21,4 @@ int main(int argc, char *argv[]) {
 	return 0;
 }
 #endif//CATCH_CONFIG_MAIN
+

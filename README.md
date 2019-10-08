@@ -1,2 +1,2 @@
-# cpp-primer
-cpp primer(6th) tests
+# rock cpp
+my cpp lib & tests
